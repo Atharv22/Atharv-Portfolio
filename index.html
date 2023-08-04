@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv - Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="original.jpg" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #26282B;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #353941;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            text-decoration: none;
+            color: #90B8F8;  
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px;
+        }
+
+        .firstSection > div {
+            width: 35%;
+        }
+
+        .leftSection {
+            font-size: 1.9rem;
+        }
+
+        .leftSection .buttons{
+            padding: 23px 0;
+        }
+
+        .leftSection .btn{
+            padding: 8px 12px;
+            background: #5F85DB;
+            border: 2px solid white;
+            color: white;
+            border-radius: 6px;
+            font-size: 20px;
+        }
+        
+        .leftSection .btn:hover{
+            padding: 8px 12px;
+            background: #3a60b8;
+            border: 2px solid white;
+            color: white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .util{
+            color: #5F85DB;
+        }
+
+        #element{
+            color: #5F85DB;
+        }
+
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1{
+            font-size: 1.9 rem;
+        }
+
+        .secondSection .box{
+            background: white;
+            width: 78vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 30px;
+            width: 1px;
+            background-color: white;
+            margin: 0 75px;
+        }
+
+        .image-top{
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left:-15px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 10px;
+            width: 130px;
+            font-size: 14px;
+            left: -50px;
+        }
+
+        .vertical-desc{
+            position: relative;
+            color: rgb(201, 201, 201);
+            top: 15px;
+            width: 135px;
+            font-size: 9px;
+            left: -50px;
+        }
+
+        footer{
+            background-color: #353941;
+            height: 2px;
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Atharv's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Certifications</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="util" >Atharv</span>
+                <div>
+                    and I am a passionate
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a download href="Atharv Resume (1).pdf"><button class="btn">Resume</button></a>
+                    <a href="https://github.com/Atharv22" target="_blank" ><button class="btn">GitHub</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <section class="secondSection">
+            <span class="text-grave" >
+                What I have done so far
+            </span>
+            <h1>
+                Work Experience
+            </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="11.png" alt="GirlScript-logo" class="image-top">
+                    <div class="vertical-title">
+                        Graphic Designer
+                    </div>
+                    <div class="vertical-desc">
+                        Manage and coordinate graphic design projects from concept through completion. Create and conduct highly persuasive sales and marketing presentations. Responsible for day to day posts and posts for contests
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="5.png" alt="AV-Service-logo" class="image-top">
+                    <div class="vertical-title">
+                        Computer Technician
+                    </div>
+                    <div class="vertical-desc">
+                        As a skilled computer technician, equipped with a diverse range of technical skills, I have hands-on experience in assembling and repairing computers, conducting system upgrades, and troubleshooting intricate problems. 
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="9.png" alt="coincent-logo" class="image-top">
+                    <div class="vertical-title">
+                        Cyber Security Intern
+                    </div>
+                    <div class="vertical-desc">
+                        Cyber Security Intern with hands-on experience in deploying attacks like brute force for password cracking. Proficient in performing SQL injection techniques to assess application vulnerabilities. Demonstrated ability to gain root access to victim machines through injection of malicious code.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="10.png" alt="bavch-logo" class="image-top">
+                    <div class="vertical-title">
+                        Cyber Security Intern
+                    </div>
+                    <div class="vertical-desc">
+                        Responsible for testing open ports and methods to exploit these open ports. Assist with vulnerability assessments and penetration testing. As a part of project was responsible to exploit OWASP and Kioptrix Level 1. Discover the IP's of machines, scan for open ports and get root access to the system
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="8.png" alt="edunet-Logo" class="image-top">
+                    <div class="vertical-title">
+                        Cyber Security Intern
+                    </div>
+                    <div class="vertical-desc">
+                        nternship focused on emerging cyber security technologies. Developed a keylogger application to demonstrate potential data vulnerabilities. Demonstrated the risks of keystroke capture and user data exposure. Researched methods to enhance user safety and protect against such threats.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="7.png" alt="creative-capsule-logo" class="image-top">
+                    <div class="vertical-title">
+                        Web Developer Intern
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In consequuntur consectetur quas impedit eligendi quidem aliquid deleniti dolorum enim corporis velit dolore nobis iusto voluptatum aut laborum ab, quis praesentium.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="6.png" alt="persistent-logo" class="image-top">
+                    <div class="vertical-title">
+                        Martian Internship
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque itaque possimus fuga hic doloribus! Ratione eius perferendis sed distinctio blanditiis cum cupiditate molestiae at esse iste ex vel, qui sequi.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-first">
+            Atharv's Portfolio
+        </div>
+        <div class="footer-second">
+
+        </div>
+        <div class="footer-third">
+
+        </div>
+        <div class="footer-fourth">
+
+        </div>
+        <div class="footer-fifth">
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Computer Technician', 'Cyber Security Enthusiast', 'Graphic Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
